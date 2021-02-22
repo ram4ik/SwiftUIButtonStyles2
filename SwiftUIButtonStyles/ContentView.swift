@@ -34,13 +34,13 @@ struct ContentView: View {
                 
             }, label: {
                 Text("Button")
-            })
+            }).buttonStyle(RoundedCornersButtonStyle(font: .largeTitle, backgroundColor: .clear, foregroundColor: .purple, strokeColor: .purple, strokeLneWidth: 5, cornerRadius: 5))
             
             Button(action: {
                 
             }, label: {
                 Text("Button")
-            })
+            }).buttonStyle(RoundedCornersButtonStyle(font: .largeTitle, backgroundColor: .yellow, foregroundColor: .white, strokeColor: .orange, strokeLneWidth: 10, cornerRadius: 20))
         }
     }
 }
