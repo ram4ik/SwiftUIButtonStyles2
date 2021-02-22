@@ -9,8 +9,38 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 20) {
+            Button(action: {
+                
+            }, label: {
+                Text("Button")
+            })
+            .buttonStyle(RoundedCornersButtonStyle())
+            
+            Button(action: {
+                
+            }, label: {
+                Text("Button")
+            })
+            
+            Button(action: {
+                
+            }, label: {
+                Text("Button")
+            })
+            
+            Button(action: {
+                
+            }, label: {
+                Text("Button")
+            })
+            
+            Button(action: {
+                
+            }, label: {
+                Text("Button")
+            })
+        }
     }
 }
 
