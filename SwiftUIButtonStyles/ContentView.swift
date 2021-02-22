@@ -22,6 +22,7 @@ struct ContentView: View {
             }, label: {
                 Text("Button")
             })
+            .buttonStyle(RoundedCornersButtonStyle(font: .largeTitle, padding: CGPoint(x: 42, y: 42), backgroundColor: .green, foregroundColor: .white, cornerRadius: 21))
             
             Button(action: {
                 
