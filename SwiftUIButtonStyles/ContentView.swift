@@ -22,13 +22,13 @@ struct ContentView: View {
             }, label: {
                 Text("Button")
             })
-            .buttonStyle(RoundedCornersButtonStyle(font: .largeTitle, padding: CGPoint(x: 42, y: 42), backgroundColor: .green, foregroundColor: .white, cornerRadius: 21))
+            .buttonStyle(RoundedCornersButtonStyle(font: .largeTitle, padding: CGPoint(x: 42, y: 42), backgroundColor: .green, foregroundColor: .white, strokeLneWidth: 0, cornerRadius: 21))
             
             Button(action: {
                 
             }, label: {
                 Text("Button")
-            })
+            }).buttonStyle(RoundedCornersButtonStyle(font: .title, backgroundColor: .clear, foregroundColor: .pink, strokeColor: .pink, strokeLneWidth: 1, cornerRadius: 10))
             
             Button(action: {
                 
